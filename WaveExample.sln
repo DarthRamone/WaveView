@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveExample", "wavetest\WaveExample.csproj", "{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Release|iPhone.ActiveCfg = Release|iPhone
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Release|iPhone.Build.0 = Release|iPhone
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{AE5D0FC4-01BC-4DFB-9A11-461FCDE26AD5}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
