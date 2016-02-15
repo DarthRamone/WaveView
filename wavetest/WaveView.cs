@@ -35,7 +35,7 @@ namespace WaveExample
       waveLayer.FillColor = new CGColor (0, 0, 0, 1);
       Layer.AddSublayer (waveLayer);
       waveDisplaylink = CADisplayLink.Create (() => GetCurrentWave (waveDisplaylink));
-      waveDisplaylink.AddToRunLoop (NSRunLoop.Main, NSRunLoopMode.Common);
+	  waveDisplaylink.AddToRunLoop (NSRunLoop.Main, NSRunLoop.NSDefaultRunLoopMode);
     }
 
     public void Stop ()

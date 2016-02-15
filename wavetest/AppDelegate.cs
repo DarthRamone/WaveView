@@ -10,18 +10,23 @@ namespace WaveExample
   {
     // class-level declarations
 
-    public override UIWindow Window {
-      get;
-      set;
-    }
+//    public override UIWindow Window {
+//      get;
+//      set;
+//    }
+
+	UIWindow window;
 
     public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
     {
       // Override point for customization after application launch.
       // If not required for your application you can safely delete this method
 
+	  window = new UIWindow (UIScreen.MainScreen.Bounds);
+
       var vc = new TestVC ();
-      Window.RootViewController = vc;
+      window.RootViewController = vc;
+	  window.MakeKeyAndVisible();
 
       return true;
     }

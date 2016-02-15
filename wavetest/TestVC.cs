@@ -5,17 +5,24 @@ namespace WaveExample
 {
   public class TestVC : UIViewController
   {
+	WaveView wave;
+
     public override void ViewDidLoad ()
     {
       View.BackgroundColor = UIColor.Yellow;
 
-      var wave = new WaveView ();
+      wave = new WaveView ();
       wave.Frame = UIScreen.MainScreen.Bounds;
-      wave.Start ();
 
       View.AddSubview (wave);
 
       base.ViewDidLoad ();
     }
+
+	public override void ViewDidAppear (bool animated)
+	{
+		base.ViewDidAppear (animated);
+		wave.Start ();
+	}
   }
 }
